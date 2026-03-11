@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import {
-  BookOpen,
   Settings,
   BarChart3,
   Bell,
@@ -44,8 +43,10 @@ function App() {
       {/* Sidebar Navigation */}
       <aside className="sidebar">
         <div className="logo-container">
-          <BookOpen className="logo-icon" size={28} />
-          <span className="logo-text">LearnAble</span>
+          <span className="logo-text">
+            <span className="logo-learn">learn</span>
+            <span className="logo-able">Able</span>
+          </span>
         </div>
 
         <nav className="nav-menu">

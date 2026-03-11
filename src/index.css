@@ -1,21 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 :root {
-  --bg-main: #0a0a0f;
-  --bg-surface: rgba(20, 20, 25, 0.7);
-  --bg-surface-hover: rgba(30, 30, 35, 0.8);
+  --bg-main: #ffffff;
+  --bg-surface: #f8fafc;
+  --bg-surface-hover: #f1f5f9;
   
-  --text-primary: #ffffff;
-  --text-secondary: #9ca3af;
-  --text-muted: #4b5563;
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #64748b;
   
-  --accent-cyan: #00f0ff;
-  --accent-purple: #8b5cf6;
-  --accent-gradient: linear-gradient(135deg, var(--accent-cyan), var(--accent-purple));
+  --logo-dark: #12434E;
+  --logo-cyan: #2ABADF;
+  --logo-green: #6EDDA4;
   
-  --border-color: rgba(255, 255, 255, 0.1);
-  --glass-blur: blur(16px);
-  --shadow-glow: 0 0 20px rgba(0, 240, 255, 0.2);
+  --accent-cyan: var(--logo-cyan);
+  --accent-green: var(--logo-green);
+  --accent-gradient: linear-gradient(135deg, var(--logo-cyan), var(--logo-green));
+  
+  --border-color: #e2e8f0;
+  --glass-blur: blur(8px);
+  --shadow-glow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   
   --transition-fast: 0.2s ease;
   --transition-normal: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
