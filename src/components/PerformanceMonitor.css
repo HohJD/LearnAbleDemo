@@ -35,18 +35,18 @@
 }
 
 .text-cyan {
-    color: var(--accent-cyan);
-    box-shadow: 0 0 15px rgba(0, 240, 255, 0.1) inset;
+    color: var(--logo-cyan);
+    background: rgba(0, 122, 255, 0.08);
 }
 
 .text-purple {
-    color: var(--accent-purple);
-    box-shadow: 0 0 15px rgba(139, 92, 246, 0.1) inset;
+    color: #5856d6;
+    background: rgba(88, 86, 214, 0.08);
 }
 
 .text-emerald {
-    color: #10b981;
-    box-shadow: 0 0 15px rgba(16, 185, 129, 0.1) inset;
+    color: var(--logo-green);
+    background: rgba(52, 199, 89, 0.08);
 }
 
 .stat-content {
@@ -129,13 +129,11 @@
 }
 
 .dot-cyan {
-    background: var(--accent-cyan);
-    box-shadow: 0 0 8px var(--accent-cyan);
+    background: var(--logo-cyan);
 }
 
 .dot-purple {
-    background: var(--accent-purple);
-    box-shadow: 0 0 8px var(--accent-purple);
+    background: #5856d6;
 }
 
 .chart-area {
@@ -261,7 +259,7 @@
     gap: 1rem;
     padding: 1rem;
     border-radius: var(--border-radius-sm);
-    background: rgba(0, 0, 0, 0.2);
+    background: var(--bg-surface-hover);
     border-left: 3px solid transparent;
 }
 

@@ -228,13 +228,12 @@
 }
 
 .original {
-    border: 1px solid rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--border-color);
 }
 
 .adapted {
-    border: 1px solid rgba(0, 240, 255, 0.2);
-    background: rgba(0, 240, 255, 0.02);
-    box-shadow: 0 0 20px rgba(0, 240, 255, 0.05) inset;
+    border: 1px solid rgba(0, 122, 255, 0.2);
+    background: rgba(0, 122, 255, 0.02);
 }
 
 .pane-label {
@@ -527,8 +526,10 @@
 
 /* Camera feed simulation */
 .prototype-camera-view {
-  border: 1px solid var(--accent-cyan);
-  box-shadow: 0 0 20px rgba(0, 240, 255, 0.1) inset;
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  border-radius: var(--border-radius-md);
+  overflow: hidden;
 }
 
 .camera-header {
